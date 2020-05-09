@@ -8,4 +8,6 @@ from sklearn.metrics import mean_squared_error
 import xgboost
 import shap
 
-print('aaa')
+data = pd.read_csv('listings_summary.csv')
+print(data.columns)
+print(data.city.unique())
